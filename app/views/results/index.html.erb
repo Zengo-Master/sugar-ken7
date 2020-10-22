@@ -45,16 +45,18 @@
           <%= kifu.date %>
         </span>
 
-        <%# 相手 %>
-        <span class="sente">
-          <%= kifu.sente.name %>
-        </span>
+        <span class="card">
+          <%# 先手 %>
+          <span class="sente">
+            <%= kifu.sente.name %>
+          </span>
 
-        vs
+          vs
 
-        <%# 結果 %>
-        <span class="gote">
-          <%= kifu.gote.name %>
+          <%# 後手 %>
+          <span class="gote">
+            <%= kifu.gote.name %>
+          </span>
         </span>
 
         <%# 棋譜リンク %>
