@@ -1,5 +1,5 @@
 # アプリ名
-sugar-ken
+sugar-ken7
 
 # 概要
 <p>オンライン将棋大会の対戦記録が行えます。総当たりリーグ戦の結果を手軽に記入し、棋譜も保存できます。また、その棋譜をAIで解析することもできます。</p>
@@ -52,3 +52,12 @@ Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code
 ### Association
 
 - belongs_to :member
+
+## kifus テーブル
+
+| Column   | Type    | Options     |
+| -------- | ------- | ----------- |
+| date     | date    | null: false |
+| sente_id | integer | null: false |
+| gote_id  | integer | null: false |
+| kifu     | text    | null: false |
