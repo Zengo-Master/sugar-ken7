@@ -22,9 +22,6 @@ https://sugar-ken-7.herokuapp.com/
 # 使用技術（開発環境）
 Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code
 
-# 課題や今後実装したい機能
-
-
 # DB設計
 
 ## members テーブル
@@ -47,7 +44,6 @@ Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code
 | member      | references | null: false |
 | op_id       | integer    | null: false |
 | result      | string     |             |
-| kifu        | text       |             |
 
 ### Association
 
