@@ -55,9 +55,10 @@ Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code
 
 ## kifus テーブル
 
-| Column   | Type    | Options     |
-| -------- | ------- | ----------- |
-| date     | date    | null: false |
-| sente_id | integer | null: false |
-| gote_id  | integer | null: false |
-| kifu     | text    | null: false |
+| Column    | Type    | Options     |
+| --------- | ------- | ----------- |
+| date      | date    | null: false |
+| sente_id  | integer | null: false |
+| gote_id   | integer | null: false |
+| result_id | integer | null: false |
+| kifu      | text    | null: false |
