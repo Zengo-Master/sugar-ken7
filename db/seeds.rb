@@ -6,7 +6,7 @@ Member.create(name:"しゅん", account: "Ohashi Keika", achievement: "現役奨
 Member.create(name:"しゅうまい", account: "shushu2016", achievement: "現役奨励会員")
 Member.create(name:"TK", account: "chaos chaos", achievement: "全国準優勝1回、ベスト4 1回")
 Member.create(name:"こいし", account: "Kirakrbosi", achievement: "元奨、全国準優勝")
-Member.create(name:"れおす", account: " praimary", achievement: "全国優勝3回、プロ公式戦16局")
+Member.create(name:"れおす", account: "praimary", achievement: "全国優勝3回、プロ公式戦16局")
 
 Result.create(member_id:1, op_id:1)
 Result.create(member_id:1, op_id:2)
