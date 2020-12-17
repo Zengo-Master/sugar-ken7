@@ -4,7 +4,7 @@ Member.create(name:"ほっしー", account: "Aleister_Crowley", achievement: "�
 Member.create(name:"あつと", account: "endo_sakura", achievement: "現役奨励会４級")
 Member.create(name:"しゅん", account: "Ohashi Keika", achievement: "現役奨励会三段")
 Member.create(name:"しゅうまい", account: "shushu2016", achievement: "現役奨励会員")
-Member.create(name:"TK", account: "", achievement: "")
+Member.create(name:"TK", account: "Tomoharu.k", achievement: "全国ベスト4")
 
 Result.create(member_id:1, op_id:1)
 Result.create(member_id:1, op_id:2)

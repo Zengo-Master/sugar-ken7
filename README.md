@@ -6,7 +6,7 @@ sugar-ken8
 
 # 本番環境
 ## Heroku
-https://sugar-ken-8.herokuapp.com/
+https://sugar-ken-7.herokuapp.com/
 <p>ユーザー名：zengoma</p>
 <p>パスワード：114514</p>
 
