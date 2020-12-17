@@ -5,7 +5,6 @@
 
     <%= form_with(model: @kifu, url: kifus_path, local: true) do |f| %>
     <%= render 'layouts/error_messages', model: f.object %>
-      <%# 日付 %>
       <div class="input-field">
         <%= f.label :date, '日付：' %>
         <%= raw sprintf(
@@ -13,7 +12,7 @@
                         :date,
                         use_month_numbers: true,
                         start_year:        2020,
-                        end_year:          2020,
+                        end_year:          2021,
                         default:           Date.today,
                         date_separator:    '%s'),
                     '年 ', '月 ') + '日'

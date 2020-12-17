@@ -40,7 +40,6 @@
     <% @kifus.each do |kifu| %>
       <div class="one-kifu">
 
-        <%# 日付 %>
         <span class="date">
           <%= kifu.date %>
         </span>
@@ -55,14 +54,12 @@
             <% end %>
             </span>
 
-          <%# 先手 %>
           <span class="sente">
             <%= kifu.sente.name %>
           </span>
 
           vs
 
-          <%# 後手 %>
           <span class="gote">
             <%= kifu.gote.name %>
           </span>
@@ -81,7 +78,6 @@
 
         </span>
 
-        <%# 棋譜リンク %>
         <span class="kifu-page">
           <%= link_to '棋譜を見る', kifu_path(kifu.id)  %>
         </span>
