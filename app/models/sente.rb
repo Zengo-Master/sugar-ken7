@@ -8,6 +8,7 @@ class Sente < ActiveHash::Base
     { id: 6,  name: 'しゅん' },
     { id: 7,  name: 'しゅうまい' },
     { id: 8,  name: 'TK' },
-    { id: 9,  name: 'れおす' }
+    { id: 9,  name: 'こいし' },
+    { id: 10, name: 'れおす' }
   ]
 end
