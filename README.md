@@ -17,7 +17,7 @@ https://sugar-ken-7.herokuapp.com/
 <p>リーグ戦の結果記入をクリックだけで済むように実装しました。例えば、AさんがBさんに勝利した場合、AさんとBさんの対戦のマス目をクリックすると「○」が付き、反対側のマス目に「●」が自動で付きます。そして、棋譜入力欄も設け、入力後は「○」か「●」をクリックすると、その対戦棋譜を閲覧することができます。さらに、その棋譜をAIに接続して解析することもできるので、高度な振り返りも可能です。</p>
 
 # 使用技術（開発環境）
-Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code
+Ruby/Ruby on Rails/HTML/CSS/MySQL/Github/Visual Studio Code
 
 # DB設計
 
