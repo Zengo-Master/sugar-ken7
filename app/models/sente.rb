@@ -9,6 +9,9 @@ class Sente < ActiveHash::Base
     { id: 7,  name: 'しゅうまい' },
     { id: 8,  name: 'TK' },
     { id: 9,  name: 'こいし' },
-    { id: 10, name: 'れおす' }
+    { id: 10, name: 'れおす' },
+    { id: 11,  name: '２６銀' },
+    { id: 12,  name: 'へいや' },
+    { id: 13, name: 'きふわるべ' }
   ]
 end
