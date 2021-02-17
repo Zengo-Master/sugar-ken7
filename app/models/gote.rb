@@ -10,8 +10,9 @@ class Gote < ActiveHash::Base
     { id: 8,  name: 'TK' },
     { id: 9,  name: 'こいし' },
     { id: 10, name: 'れおす' },
-    { id: 11,  name: '２６銀' },
+    { id: 11,  name: 'カイト' },    
     { id: 12,  name: 'へいや' },
-    { id: 13, name: 'きふわるべ' }
+    { id: 13,  name: '２６銀' },
+    { id: 14, name: 'きふわるべ' }
   ]
 end
