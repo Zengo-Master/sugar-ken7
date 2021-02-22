@@ -55,3 +55,18 @@ Ruby/Ruby on Rails/HTML/CSS/MySQL/Github/Visual Studio Code
 | gote_id   | integer | null: false |
 | result_id | integer | null: false |
 | kifu      | text    | null: false |
+
+# CLEARDB_DATABASE_URL
+mysql://bd49cc3e67dde7:88c303cc@us-cdbr-east-02.cleardb.com/heroku_5c145a604fe580d?reconnect=true
+
+## ホスト
+us-cdbr-east-02.cleardb.com
+
+## ユーザー名
+bd49cc3e67dde7
+
+## パスワード
+88c303cc
+
+## データベース
+heroku_5c145a604fe580d
